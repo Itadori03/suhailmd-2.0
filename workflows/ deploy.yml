@@ -3,10 +3,10 @@ name: Suhailmd 2.0 CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 */4 * * *'
 
